@@ -67,7 +67,7 @@ const portHimi = {
         {
             titulo: 'Portfolio',
             descripcion:'Creación de un portfolio en el que se muestran algunos ejercicios realizados, (Este mismo ejercicio).',
-            url: 'https://github.com/ximhi20/des_app_web/tree/main/portfolio_himi'
+            url: 'https://github.com/ximhi20/portfolio_himi'
         },
         {
             titulo: 'Calendario',
