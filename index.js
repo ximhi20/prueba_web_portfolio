@@ -104,6 +104,13 @@ const portHimi = {
             descripcion: 'El examen práctico de la UF1842 del 27/01/2026.',
             url: 'https://github.com/ximhi20/des_app_web/tree/main/examen_himi_js'
         }
+    ],
+    php: [
+        {
+            titulo: 'Kingdom Hearts (sin JS)',
+            descripcion: 'El primer ejercicio en el que hago algo interesante con PHP, en este caso, cree una página con HTML, CSS y JS, tras lo que convertí los arcivos HTML en PHP y eliminé el JS, introduciéndolo como PHP.',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/kingdom-hearts_sin-js'
+        }
     ]
 };
 
@@ -136,6 +143,7 @@ function show(tipo='all'){
         <button id="css" type="button" onclick="show('css')">CSS</button>
         <button id="html" type="button" onclick="show('html')">HTML</button>
         <button id="js" type="button" onclick="show('js')">JS</button>
+        <button id="js" type="button" onclick="show('php')">PHP</button>
         <button id="all" type="button" onclick="show('all')">General</button>
     `;
     if(tipo != 'all'){
@@ -150,6 +158,7 @@ function show(tipo='all'){
         muestra('html');
         muestra('css');
         muestra('js');
+        muestra('php');
         document.querySelector(`#ejer`).innerHTML=misEjer;
         document.querySelector('#btn').innerHTML=boton;
         document.querySelector('#all').style='display: none;';
