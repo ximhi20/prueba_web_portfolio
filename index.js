@@ -110,6 +110,11 @@ const portHimi = {
             titulo: 'Kingdom Hearts (sin JS; de GitHub)',
             descripcion: 'El primer ejercicio en el que hago algo interesante con PHP, en este caso, creé una página con HTML, CSS y JS, tras lo que convertí los arcivos HTML en PHP y eliminé el JS, introduciéndolo como PHP.',
             url: 'https://github.com/ximhi20/des_app_web/tree/main/kingdom-hearts_sin-js'
+        },
+        {
+            titulo: 'Galería de juegos de Kingdom Hearts',
+            descripcion: 'Un ejercicio de creación de una galería en la que obtienes más información si pulsas en la ficha.',
+            url: 'https://github.com/ximhi20/des_app_web/tree/main/kh-galeria'
         }
     ]
 };
